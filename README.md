@@ -21,20 +21,11 @@ A custom searchbar that helps you easily create animated dynamic placeholders.
 2. Just drag and drop DynamicSearchBarPlaceholders folder to your project
 ```
 
-## Example Usage
-
+## Usage
+### Quick Usage
 ```swift
     let searchBar = DynamicSearchBar(placeholders: ["Swift", "Dynamic", "SearchBar", "Placeholders"])
-```
-
-#### or
-
-```swift
-    let searchBar = DynamicSearchBar(placeholders: ["Swift", "Dynamic", "SearchBar", "Placeholders"],
-                                     timeInterval: 2,
-                                     direction: .fromTop,
-                                     placeholdersOptions: [.infinite, .shuffle])
-    searchBar.translatesAutoresizingMaskIntoConstraints = false
+        searchBar.translatesAutoresizingMaskIntoConstraints = false
     view.addSubview(searchBar)
     NSLayoutConstraint.activate([
         searchBar.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
@@ -42,6 +33,32 @@ A custom searchbar that helps you easily create animated dynamic placeholders.
         searchBar.trailingAnchor.constraint(equalTo: view.trailingAnchor),
         searchBar.heightAnchor.constraint(equalToConstant: 60)
     ])
+```
+
+### Custom Usage
+```swift
+    let searchBar = DynamicSearchBar(placeholders: ["Swift", "Dynamic", "SearchBar", "Placeholders"],
+                                     timeInterval: 2,
+                                     direction: .fromTop,
+                                     placeholdersOptions: [.infinite, .shuffle])
+                                         searchBar.translatesAutoresizingMaskIntoConstraints = false
+    view.addSubview(searchBar)
+    NSLayoutConstraint.activate([
+        searchBar.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
+        searchBar.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+        searchBar.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+        searchBar.heightAnchor.constraint(equalToConstant: 60)
+    ])
+```
+
+### Stop animation
+```swift
+    searchBar.stopPlaceholders()
+```
+
+### Resume animation
+```swift
+    searchBar.resumePlaceholders()
 ```
 
 ## Init Properties
