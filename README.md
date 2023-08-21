@@ -2,8 +2,7 @@
 
 A custom searchbar that helps you easily create animated dynamic placeholders.
 
-[![Twitter: @ataetgi](https://img.shields.io/badge/contact-%40ataetgi-blue.svg)](https://twitter.com/ataetgi)
-![Issues](https://img.shields.io/github/issues/ataetgi/DynamicSearchBarPlaceholders) ![Forks](https://img.shields.io/github/forks/ataetgi/DynamicSearchBarPlaceholders) ![Stars](https://img.shields.io/github/stars/ataetgi/DynamicSearchBarPlaceholders) ![License](https://img.shields.io/github/license/ataetgi/DynamicSearchBarPlaceholders) 
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fataetgi%2FDynamicSearchBarPlaceholders%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/ataetgi/DynamicSearchBarPlaceholders) [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fataetgi%2FDynamicSearchBarPlaceholders%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/ataetgi/DynamicSearchBarPlaceholders) ![Issues](https://img.shields.io/github/issues/ataetgi/DynamicSearchBarPlaceholders) ![License](https://img.shields.io/github/license/ataetgi/DynamicSearchBarPlaceholders) 
 
 ![Screenshot](https://github.com/ataetgi/DynamicSearchBarPlaceholders/blob/main/example.gif)
 
