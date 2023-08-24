@@ -25,7 +25,7 @@ A custom searchbar that helps you easily create animated dynamic placeholders.
 ### Quick Usage
 ```swift
     let searchBar = DynamicSearchBar(placeholders: ["Swift", "Dynamic", "SearchBar", "Placeholders"])
-        searchBar.translatesAutoresizingMaskIntoConstraints = false
+    searchBar.translatesAutoresizingMaskIntoConstraints = false
     view.addSubview(searchBar)
     NSLayoutConstraint.activate([
         searchBar.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
