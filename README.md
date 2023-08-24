@@ -41,7 +41,7 @@ A custom searchbar that helps you easily create animated dynamic placeholders.
                                      timeInterval: 2,
                                      direction: .fromTop,
                                      placeholdersOptions: [.infinite, .shuffle])
-                                         searchBar.translatesAutoresizingMaskIntoConstraints = false
+    searchBar.translatesAutoresizingMaskIntoConstraints = false
     view.addSubview(searchBar)
     NSLayoutConstraint.activate([
         searchBar.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
